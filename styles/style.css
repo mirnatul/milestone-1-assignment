@@ -214,10 +214,13 @@ header button {
     height: 55px;
     width: 320px;
     margin-bottom: 20px;
+    color: white;
+    color: white;
+    font-size: 16px;
+    padding-left: 25px;
 }
 .mini-form input::placeholder {
-    padding-left: 15px;
-    color: white;
+    color: rgb(174, 174, 174);
     font-size: 16px;
 }
 .mini-form button {
