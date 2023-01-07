@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header section */
+
+header {
+    background-image: url('../images/banner/banner.jpg');
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+}
+header .text-container {
+    text-align: right;
+    margin-right: 230px;
+    margin: 0px 200px 0 auto;
+    padding-top: 180px;
+    width: 525px;
+}
+header h1 {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    color: #151414;
+}
+header p {
+    color: #444343;
+    width: 450px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    margin-left: auto;
+    line-height: 26px;
+}
+header button {
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 26px;
+}
+
+/* failure section */
+
+.failure-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 87px;
+    margin-top: 0px;
+}
+.failure-section .text-container {
+    width: 416px;
+    padding-top: 160px;
+}
+.failure-section h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.failure-section p {
+    color: #444343;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.failure-section ul {
+    list-style-position: inside;
+    list-style: none;
+    /* list-style-image: url('../images/list-mark.png'); */
+}
+.failure-section li {
+    background-image: url('../images/list-mark.png');
+    background-position: 0 6px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    line-height: 32px;
+    color: #444343;
+}
+
+/* success section */
+
+.success-section {
+    margin-top: 40px;
+}
+.success-section .text-container {
+    padding-top: 0px;
+}
+.success-section img{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+/* plan */
+.plan {
+    text-align: center;
+    width: 1100px;
+    margin: auto;
+}
+.plan h1 {
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #151414;
+}
+.plan .four-plans {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-around;
+}
+.plan img {
+    margin-bottom: 25px;
+}
+.four-plans h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #151414;
+}
+.four-plans p {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+/* call now section */
+
+.call-now {
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+    background-repeat: no-repeat;
+    margin: 130px auto;
+    height: 300px;
+    width: 1140px;
+}
+.call-now div {
+    width: 460px;
+    /* height: 180px; */
+    padding: 60px 0 0 80px;
+}
+.call-now h1 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    color: white;
+    margin-bottom: 24px;
+}
+.call-now button {
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    background-color: white;
+    border: none;
+    padding: 20px 36px;
+    border-radius: 5px;
+}
+/* footer */
+
+.footer-section {
+    color: white;
+    background-color: #151414;
+    width: 100%;
+    height: 570px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-section .contact {
+    width: 485px;
+    height: 317px;
+    margin: 130px 0 0 0px;
+}
+.footer-section .mini-form {
+    width: 325px;
+    height: 204px;
+    margin-top: 130px;
+}
+.contact h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.contact .text {
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.contact .contact-email {
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+.contact .phone {
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+.contact img {
+    margin-right: 15px;
+}
+.mini-form h3 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 32px;
+}
+.mini-form input {
+    border: 1px solid white;
+    background-color: #151414;
+    border-radius: 5px;
+    height: 55px;
+    width: 320px;
+    margin-bottom: 20px;
+}
+.mini-form input::placeholder {
+    padding-left: 15px;
+    color: white;
+    font-size: 16px;
+}
+.mini-form button {
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    background-color: white;
+    border: none;
+    padding: 20px 36px;
+    border-radius: 5px;
+}
